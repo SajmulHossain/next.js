@@ -1,8 +1,23 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+
 const Home = () => {
+  const router = useRouter();
+
+  const handleNavigation = () => {
+    router.push("/dashboard");
+  };
+
   return (
-    <div>
-      <h1>This is Home component</h1>
-    </div>
+    <section className="h-screen grid place-items-center">
+      <div className="text-center">
+        <h2 className="font-semibold text-2xl mb-3 italic">
+          Welcome to Next Js Home Page
+        </h2>
+        <button onClick={handleNavigation}>Dashboard</button>
+      </div>
+    </section>
   );
 };
 
