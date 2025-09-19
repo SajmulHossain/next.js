@@ -16,6 +16,7 @@ const Navbar = () => {
         <Link className="font-medium text-lg" href="/contact">
           Contact
         </Link>
+        <Link href="/gallery">Gallery</Link>
       </div>
     </nav>
   );
