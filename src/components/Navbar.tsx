@@ -10,13 +10,14 @@ const Navbar = () => {
         <Link className="font-medium text-lg" href="/">
           Home
         </Link>
+        <Link href="/products">Products</Link>
+        <Link href="/gallery">Gallery</Link>
         <Link className="font-medium text-lg" href="/about">
           About
         </Link>
         <Link className="font-medium text-lg" href="/contact">
           Contact
         </Link>
-        <Link href="/gallery">Gallery</Link>
       </div>
     </nav>
   );

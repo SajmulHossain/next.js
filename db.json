@@ -1,13 +1,84 @@
 {
-  "posts": [
-    { "id": "1", "title": "a title", "views": 100 },
-    { "id": "2", "title": "another title", "views": 200 }
-  ],
-  "comments": [
-    { "id": "1", "text": "a comment about post 1", "postId": "1" },
-    { "id": "2", "text": "another comment about post 1", "postId": "1" }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "products": [
+      {
+        "id": 1,
+        "product_name": "Leather Wallet",
+        "category": "Accessories",
+        "brand": "Fossil",
+        "price": 45.99,
+        "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348"
+      },
+      {
+        "id": 2,
+        "product_name": "Bluetooth Earbuds",
+        "category": "Electronics",
+        "brand": "Anker",
+        "price": 79.99,
+        "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+      },
+      {
+        "id": 3,
+        "product_name": "Running Shoes",
+        "category": "Footwear",
+        "brand": "Nike",
+        "price": 120.0,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+      },
+      {
+        "id": 4,
+        "product_name": "Classic Watch",
+        "category": "Accessories",
+        "brand": "Seiko",
+        "price": 299.99,
+        "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348"
+      },
+      {
+        "id": 5,
+        "product_name": "Espresso Machine",
+        "category": "Home Appliances",
+        "brand": "Breville",
+        "price": 499.95,
+        "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348"
+      },
+      {
+        "id": 6,
+        "product_name": "Backpack",
+        "category": "Bags",
+        "brand": "The North Face",
+        "price": 149.5,
+        "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f"
+      },
+      {
+        "id": 7,
+        "product_name": "Gaming Keyboard",
+        "category": "Computers",
+        "brand": "Razer",
+        "price": 129.99,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+      },
+      {
+        "id": 8,
+        "product_name": "Yoga Mat",
+        "category": "Sports",
+        "brand": "Lululemon",
+        "price": 68.0,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+      },
+      {
+        "id": 9,
+        "product_name": "Smartphone",
+        "category": "Electronics",
+        "brand": "Apple",
+        "price": 999.99,
+        "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+      },
+      {
+        "id": 10,
+        "product_name": "Water Bottle",
+        "category": "Outdoors",
+        "brand": "Hydro Flask",
+        "price": 39.95,
+        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+      }
+    ]
 }

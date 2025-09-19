@@ -7,7 +7,7 @@ const CommonLayout = ({ children }: { children: ReactNode }) => {
       <header>
         <Navbar />
       </header>
-      <main className="grow max-w-7xl mx-auto px-4">{children}</main>
+      <main className="grow w-full max-w-7xl mx-auto px-4">{children}</main>
       <footer>
         <section>
           <h2 className="font-bold text-2xl">Serokom Footer</h2>
